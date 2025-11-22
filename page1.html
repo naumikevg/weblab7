@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>ЛР7 - Стрес-тест (Варіант 2)</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header class="header">
+    <div class="x">Lab 7</div>
+    <h1>Експерименти з навантаженням</h1>
+  </header>
+
+  <div class="two">
+    <h3>Інструкція</h3>
+    <p>1. Натисніть PLAY в центрі.</p>
+    <p>2. У вікні натисніть START.</p>
+    <p>3. Зачекайте 5-10 секунд.</p>
+    <p>4. Натисніть CLOSE.</p>
+    <p>5. Дивіться таблицю порівняння часу.</p>
+  </div>
+
+  <div class="three">
+    <h2>Керування (Варіант 2)</h2>
+    
+    <div style="text-align: center; margin: 20px;">
+        <button id="btnPlay" class="save-btn" style="padding: 20px; font-size: 18px;">▶ PLAY ANIMATION</button>
+    </div>
+
+    <div id="reportArea"></div>
+  </div>
+
+  <div class="four">
+    <h3>Інфо</h3>
+    <p>Варіант 2: Два круги (червоний/зелений), відбивання від стінок, зупинка при зіткненні.</p>
+  </div>
+
+  <div class="five">
+    <p>Статичний блок 5</p>
+  </div>
+
+  <div class="six">
+    <div class="y">Footer</div>
+    <p>Lab 7 Variant 2</p>
+  </div>
+
+  <div id="work" class="work-layer" style="display:none;">
+    <div id="anim" class="anim-area">
+        </div>
+    
+    <div id="controls" class="controls-area">
+        <div class="controls-left">
+            <span id="logDisplay">Очікування...</span>
+        </div>
+        <div class="controls-right">
+            <button id="btnAction">START</button>
+            <button id="btnClose">CLOSE</button>
+        </div>
+    </div>
+  </div>
+
+  <script src="script_lab7.js"></script>
+</body>
+</html>
